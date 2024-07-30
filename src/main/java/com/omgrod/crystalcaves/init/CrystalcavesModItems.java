@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import com.omgrod.crystalcaves.item.CrystaliteItem;
+import com.omgrod.crystalcaves.item.CrystalArmorItem;
 import com.omgrod.crystalcaves.CrystalcavesMod;
 
 public class CrystalcavesModItems {
@@ -20,6 +21,10 @@ public class CrystalcavesModItems {
 	public static final RegistryObject<Item> CRYSTALITE = REGISTRY.register("crystalite", () -> new CrystaliteItem());
 	public static final RegistryObject<Item> CRYSTALITE_ORE = block(CrystalcavesModBlocks.CRYSTALITE_ORE);
 	public static final RegistryObject<Item> CRYSTALITE_BLOCK = block(CrystalcavesModBlocks.CRYSTALITE_BLOCK);
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_HELMET = REGISTRY.register("crystal_armor_helmet", () -> new CrystalArmorItem.Helmet());
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_CHESTPLATE = REGISTRY.register("crystal_armor_chestplate", () -> new CrystalArmorItem.Chestplate());
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_LEGGINGS = REGISTRY.register("crystal_armor_leggings", () -> new CrystalArmorItem.Leggings());
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_BOOTS = REGISTRY.register("crystal_armor_boots", () -> new CrystalArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

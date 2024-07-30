@@ -10,7 +10,7 @@
     "name": "Crystalite",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:CrystalCavesTab"
     },
     "stackSize": 64,
     "enchantability": 0,

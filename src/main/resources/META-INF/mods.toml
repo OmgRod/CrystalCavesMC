@@ -4,7 +4,7 @@ license="Custom license"
 
 [[mods]]
 modId="crystalcaves"
-version="1.0.0.2"
+version="1.0.0.3"
 displayName="CrystalCaves"
 displayURL="https://modrinth.com/mod/crystalcaves"
 logoFile="logo.png"

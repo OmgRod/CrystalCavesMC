@@ -104,6 +104,86 @@
           "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_cave.json"
         ]
       }
+    },
+    {
+      "name": "CrystalArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_boots.json",
+          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_leggings.json",
+          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_helmet.json",
+          "src/main/java/com/omgrod/crystalcaves/item/CrystalArmorItem.java",
+          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/recipes/crystal_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/recipes/crystal_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/recipes/crystal_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/recipes/crystal_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalCavesTab",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_caves_tab",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -120,9 +200,14 @@
   },
   "language_map": {
     "en_us": {
+      "item.crystalcaves.crystal_armor_leggings": "Crystalite Leggings",
       "item.crystalcaves.crystalite": "Crystalite",
       "block.crystalcaves.crystalite_block": "Block of Crystalite",
-      "block.crystalcaves.crystalite_ore": "Crystalite Ore"
+      "block.crystalcaves.crystalite_ore": "Crystalite Ore",
+      "item.crystalcaves.crystal_armor_chestplate": "Crystalite Chestplate",
+      "item_group.crystalcaves.crystal_caves_tab": "Crystal Caves",
+      "item.crystalcaves.crystal_armor_helmet": "Crystalite Helmet",
+      "item.crystalcaves.crystal_armor_boots": "Crystalite Boots"
     }
   },
   "foldersRoot": {
@@ -132,7 +217,7 @@
   "workspaceSettings": {
     "modid": "crystalcaves",
     "modName": "CrystalCaves",
-    "version": "1.0.0-beta.2",
+    "version": "1.0.0-beta.3",
     "description": "Adds Crystalite caves, ores, armor and tools",
     "author": "OmgRod",
     "websiteURL": "https://modrinth.com/mod/crystalcaves",

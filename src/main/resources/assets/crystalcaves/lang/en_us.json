@@ -1,5 +1,10 @@
 {
+  "item.crystalcaves.crystal_armor_leggings": "Crystalite Leggings",
   "item.crystalcaves.crystalite": "Crystalite",
   "block.crystalcaves.crystalite_block": "Block of Crystalite",
-  "block.crystalcaves.crystalite_ore": "Crystalite Ore"
+  "block.crystalcaves.crystalite_ore": "Crystalite Ore",
+  "item.crystalcaves.crystal_armor_chestplate": "Crystalite Chestplate",
+  "item_group.crystalcaves.crystal_caves_tab": "Crystal Caves",
+  "item.crystalcaves.crystal_armor_helmet": "Crystalite Helmet",
+  "item.crystalcaves.crystal_armor_boots": "Crystalite Boots"
 }
