@@ -1,0 +1,2 @@
+/gamemode spectator
+/effect give @a minecraft:night_vision infinite 255 true

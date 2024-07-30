@@ -132,16 +132,19 @@
   "workspaceSettings": {
     "modid": "crystalcaves",
     "modName": "CrystalCaves",
-    "version": "1.0.0",
-    "author": "rodri, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "1.0.0-beta.2",
+    "description": "Adds Crystalite caves, ores, armor and tools",
+    "author": "OmgRod",
+    "websiteURL": "https://modrinth.com/mod/crystalcaves",
+    "license": "Custom license",
     "serverSideOnly": false,
+    "modPicture": "crystalcaves_logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Made by OmgRod using MCreator",
     "modElementsPackage": "com.omgrod.crystalcaves"
   },
   "mcreatorVersion": 202400118518

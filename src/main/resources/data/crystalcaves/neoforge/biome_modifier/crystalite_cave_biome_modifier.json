@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "crystalcaves:crystalite_cave",
+  "step": "underground_decoration"
+}
