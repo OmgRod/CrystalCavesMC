@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "crystalcaves:crystalite_block",
+    "crystalcaves:crystalite_ore"
+  ]
+}

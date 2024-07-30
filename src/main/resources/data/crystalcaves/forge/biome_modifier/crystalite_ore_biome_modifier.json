@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "crystalcaves:crystalite_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crystalcaves:crystalite_block"
+    }
+  ],
+  "result": {
+    "item": "crystalcaves:crystalite",
+    "count": 9
+  }
+}

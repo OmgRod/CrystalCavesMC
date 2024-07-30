@@ -1,0 +1,148 @@
+{
+  "mod_elements": [
+    {
+      "name": "Crystalite",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite",
+      "metadata": {
+        "files": [
+          "src/main/java/com/omgrod/crystalcaves/item/CrystaliteItem.java",
+          "src/main/resources/assets/crystalcaves/models/item/crystalite.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystaliteOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_ore_biome_modifier.json",
+          "src/main/resources/data/crystalcaves/loot_tables/blocks/crystalite_ore.json",
+          "src/main/java/com/omgrod/crystalcaves/block/CrystaliteOreBlock.java",
+          "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_ore.json",
+          "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_ore.json",
+          "src/main/resources/assets/crystalcaves/models/block/crystalite_ore.json",
+          "src/main/resources/assets/crystalcaves/models/item/crystalite_ore.json",
+          "src/main/resources/assets/crystalcaves/blockstates/crystalite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystaliteBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/crystalcaves/models/block/crystalite_block.json",
+          "src/main/java/com/omgrod/crystalcaves/block/CrystaliteBlockBlock.java",
+          "src/main/resources/data/crystalcaves/loot_tables/blocks/crystalite_block.json",
+          "src/main/resources/assets/crystalcaves/blockstates/crystalite_block.json",
+          "src/main/resources/assets/crystalcaves/models/item/crystalite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystaliteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/recipes/crystalite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystaliteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/recipes/crystalite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystaliteOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/recipes/crystalite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystaliteCave",
+      "type": "feature",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_cave_biome_modifier.json",
+          "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_cave.json",
+          "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_cave.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:CrystaliteBlock",
+      "~CUSTOM:CrystaliteOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CrystaliteBlock",
+      "~CUSTOM:CrystaliteOre"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.crystalcaves.crystalite": "Crystalite",
+      "block.crystalcaves.crystalite_block": "Block of Crystalite",
+      "block.crystalcaves.crystalite_ore": "Crystalite Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "crystalcaves",
+    "modName": "CrystalCaves",
+    "version": "1.0.0",
+    "author": "rodri, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "com.omgrod.crystalcaves"
+  },
+  "mcreatorVersion": 202400118518
+}
