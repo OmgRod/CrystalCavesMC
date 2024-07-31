@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "crystalcaves:crystalite_cave",
+  "features": "crystalcaves:crystalite_geode",
   "step": "underground_decoration"
 }

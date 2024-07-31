@@ -28,6 +28,7 @@ import java.util.AbstractMap;
 
 import com.omgrod.crystalcaves.init.CrystalcavesModTabs;
 import com.omgrod.crystalcaves.init.CrystalcavesModItems;
+import com.omgrod.crystalcaves.init.CrystalcavesModEntities;
 import com.omgrod.crystalcaves.init.CrystalcavesModBlocks;
 
 @Mod("crystalcaves")
@@ -44,6 +45,7 @@ public class CrystalcavesMod {
 		CrystalcavesModBlocks.REGISTRY.register(bus);
 
 		CrystalcavesModItems.REGISTRY.register(bus);
+		CrystalcavesModEntities.REGISTRY.register(bus);
 
 		CrystalcavesModTabs.REGISTRY.register(bus);
 

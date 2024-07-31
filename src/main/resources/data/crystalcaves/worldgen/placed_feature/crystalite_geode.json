@@ -1,5 +1,5 @@
 {
-  "feature": "crystalcaves:crystalite_cave",
+  "feature": "crystalcaves:crystalite_geode",
   "placement": [
     {
       "type": "minecraft:rarity_filter",

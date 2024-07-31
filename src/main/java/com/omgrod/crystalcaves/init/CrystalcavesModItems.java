@@ -7,6 +7,7 @@ package com.omgrod.crystalcaves.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -25,6 +26,7 @@ public class CrystalcavesModItems {
 	public static final RegistryObject<Item> CRYSTAL_ARMOR_CHESTPLATE = REGISTRY.register("crystal_armor_chestplate", () -> new CrystalArmorItem.Chestplate());
 	public static final RegistryObject<Item> CRYSTAL_ARMOR_LEGGINGS = REGISTRY.register("crystal_armor_leggings", () -> new CrystalArmorItem.Leggings());
 	public static final RegistryObject<Item> CRYSTAL_ARMOR_BOOTS = REGISTRY.register("crystal_armor_boots", () -> new CrystalArmorItem.Boots());
+	public static final RegistryObject<Item> CRYSTALITE_GOLEM_SPAWN_EGG = REGISTRY.register("crystalite_golem_spawn_egg", () -> new ForgeSpawnEggItem(CrystalcavesModEntities.CRYSTALITE_GOLEM, -6750055, -52276, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,10 +1,13 @@
 {
+  "item.crystalcaves.crystalite_golem_spawn_egg": "Crystalite Golem Spawn Egg",
   "item.crystalcaves.crystal_armor_leggings": "Crystalite Leggings",
   "item.crystalcaves.crystalite": "Crystalite",
   "block.crystalcaves.crystalite_block": "Block of Crystalite",
   "block.crystalcaves.crystalite_ore": "Crystalite Ore",
+  "biome.crystalcaves.crystalite_cave": "Crystalite Cave",
   "item.crystalcaves.crystal_armor_chestplate": "Crystalite Chestplate",
   "item_group.crystalcaves.crystal_caves_tab": "Crystal Caves",
+  "entity.crystalcaves.crystalite_golem": "Crystalite Golem",
   "item.crystalcaves.crystal_armor_helmet": "Crystalite Helmet",
   "item.crystalcaves.crystal_armor_boots": "Crystalite Boots"
 }

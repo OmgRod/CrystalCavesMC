@@ -96,12 +96,12 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crystalite_cave",
+      "registry_name": "crystalite_geode",
       "metadata": {
         "files": [
-          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_cave_biome_modifier.json",
-          "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_cave.json",
-          "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_cave.json"
+          "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_geode.json",
+          "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_geode.json",
+          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_geode_biome_modifier.json"
         ]
       }
     },
@@ -184,6 +184,35 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "CrystaliteGolem",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_golem",
+      "metadata": {
+        "files": [
+          "src/main/java/com/omgrod/crystalcaves/client/renderer/CrystaliteGolemRenderer.java",
+          "src/main/resources/assets/crystalcaves/models/item/crystalite_golem_spawn_egg.json",
+          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_golem_biome_modifier.json",
+          "src/main/java/com/omgrod/crystalcaves/entity/CrystaliteGolemEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystaliteGeode",
+      "type": "biome",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalite_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crystalcaves/worldgen/biome/crystalite_cave.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -200,12 +229,15 @@
   },
   "language_map": {
     "en_us": {
+      "item.crystalcaves.crystalite_golem_spawn_egg": "Crystalite Golem Spawn Egg",
       "item.crystalcaves.crystal_armor_leggings": "Crystalite Leggings",
       "item.crystalcaves.crystalite": "Crystalite",
       "block.crystalcaves.crystalite_block": "Block of Crystalite",
       "block.crystalcaves.crystalite_ore": "Crystalite Ore",
+      "biome.crystalcaves.crystalite_cave": "Crystalite Cave",
       "item.crystalcaves.crystal_armor_chestplate": "Crystalite Chestplate",
       "item_group.crystalcaves.crystal_caves_tab": "Crystal Caves",
+      "entity.crystalcaves.crystalite_golem": "Crystalite Golem",
       "item.crystalcaves.crystal_armor_helmet": "Crystalite Helmet",
       "item.crystalcaves.crystal_armor_boots": "Crystalite Boots"
     }
