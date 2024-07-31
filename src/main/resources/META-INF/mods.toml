@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="[2,)"
 license="Custom license"
 
 [[mods]]
 modId="crystalcaves"
-version="1.0.0.3"
+version="1.0.0"
 displayName="CrystalCaves"
 displayURL="https://modrinth.com/mod/crystalcaves"
 logoFile="logo.png"
@@ -16,9 +16,16 @@ description="Adds Crystalite caves, ores, armor and tools"
 # End of user code block mod configuration
 
 [[dependencies.crystalcaves]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.crystalcaves]]
     modId="minecraft"
-    mandatory=true
-    versionRange="[1.20.1]"
+    type="required"
+    versionRange="[1.20.4]"
     ordering="NONE"
     side="BOTH"
 

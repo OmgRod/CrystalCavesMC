@@ -23,10 +23,10 @@
       "registry_name": "crystalite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_ore_biome_modifier.json",
           "src/main/resources/data/crystalcaves/loot_tables/blocks/crystalite_ore.json",
           "src/main/java/com/omgrod/crystalcaves/block/CrystaliteOreBlock.java",
           "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_ore.json",
+          "src/main/resources/data/crystalcaves/neoforge/biome_modifier/crystalite_ore_biome_modifier.json",
           "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_ore.json",
           "src/main/resources/assets/crystalcaves/models/block/crystalite_ore.json",
           "src/main/resources/assets/crystalcaves/models/item/crystalite_ore.json",
@@ -101,7 +101,7 @@
         "files": [
           "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_geode.json",
           "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_geode.json",
-          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_geode_biome_modifier.json"
+          "src/main/resources/data/crystalcaves/neoforge/biome_modifier/crystalite_geode_biome_modifier.json"
         ]
       }
     },
@@ -196,8 +196,8 @@
         "files": [
           "src/main/java/com/omgrod/crystalcaves/client/renderer/CrystaliteGolemRenderer.java",
           "src/main/resources/assets/crystalcaves/models/item/crystalite_golem_spawn_egg.json",
-          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_golem_biome_modifier.json",
-          "src/main/java/com/omgrod/crystalcaves/entity/CrystaliteGolemEntity.java"
+          "src/main/java/com/omgrod/crystalcaves/entity/CrystaliteGolemEntity.java",
+          "src/main/resources/data/crystalcaves/neoforge/biome_modifier/crystalite_golem_biome_modifier.json"
         ]
       }
     },
@@ -249,7 +249,7 @@
   "workspaceSettings": {
     "modid": "crystalcaves",
     "modName": "CrystalCaves",
-    "version": "1.0.0-beta.3",
+    "version": "1.0.0",
     "description": "Adds Crystalite caves, ores, armor and tools",
     "author": "OmgRod",
     "websiteURL": "https://modrinth.com/mod/crystalcaves",
@@ -260,7 +260,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.20.4",
     "credits": "Made by OmgRod using MCreator",
     "modElementsPackage": "com.omgrod.crystalcaves"
   },

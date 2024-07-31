@@ -4,11 +4,11 @@
  */
 package com.omgrod.crystalcaves.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -21,7 +21,7 @@ import com.omgrod.crystalcaves.CrystalcavesMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CrystalcavesModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CrystalcavesMod.MODID);
-	public static final RegistryObject<CreativeModeTab> CRYSTAL_CAVES_TAB = REGISTRY.register("crystal_caves_tab",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CRYSTAL_CAVES_TAB = REGISTRY.register("crystal_caves_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.crystalcaves.crystal_caves_tab")).icon(() -> new ItemStack(CrystalcavesModBlocks.CRYSTALITE_ORE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CrystalcavesModBlocks.CRYSTALITE_ORE.get().asItem());
 				tabData.accept(CrystalcavesModItems.CRYSTALITE.get());
