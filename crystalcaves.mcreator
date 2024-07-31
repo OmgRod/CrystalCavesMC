@@ -23,14 +23,14 @@
       "registry_name": "crystalite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/crystalcaves/loot_tables/blocks/crystalite_ore.json",
-          "src/main/java/com/omgrod/crystalcaves/block/CrystaliteOreBlock.java",
-          "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_ore.json",
-          "src/main/resources/data/crystalcaves/neoforge/biome_modifier/crystalite_ore_biome_modifier.json",
-          "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_ore.json",
           "src/main/resources/assets/crystalcaves/models/block/crystalite_ore.json",
-          "src/main/resources/assets/crystalcaves/models/item/crystalite_ore.json",
-          "src/main/resources/assets/crystalcaves/blockstates/crystalite_ore.json"
+          "src/main/resources/assets/crystalcaves/blockstates/crystalite_ore.json",
+          "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_ore.json",
+          "src/main/resources/data/crystalcaves/loot_tables/blocks/crystalite_ore.json",
+          "src/main/resources/data/crystalcaves/forge/biome_modifier/crystalite_ore_biome_modifier.json",
+          "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_ore.json",
+          "src/main/java/com/omgrod/crystalcaves/block/CrystaliteOreBlock.java",
+          "src/main/resources/assets/crystalcaves/models/item/crystalite_ore.json"
         ]
       }
     },
@@ -43,11 +43,11 @@
       "registry_name": "crystalite_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/crystalcaves/models/block/crystalite_block.json",
-          "src/main/java/com/omgrod/crystalcaves/block/CrystaliteBlockBlock.java",
           "src/main/resources/data/crystalcaves/loot_tables/blocks/crystalite_block.json",
+          "src/main/resources/assets/crystalcaves/models/item/crystalite_block.json",
           "src/main/resources/assets/crystalcaves/blockstates/crystalite_block.json",
-          "src/main/resources/assets/crystalcaves/models/item/crystalite_block.json"
+          "src/main/java/com/omgrod/crystalcaves/block/CrystaliteBlockBlock.java",
+          "src/main/resources/assets/crystalcaves/models/block/crystalite_block.json"
         ]
       }
     },
@@ -91,21 +91,6 @@
       }
     },
     {
-      "name": "CrystaliteCave",
-      "type": "feature",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystalite_geode",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/crystalcaves/worldgen/configured_feature/crystalite_geode.json",
-          "src/main/resources/data/crystalcaves/worldgen/placed_feature/crystalite_geode.json",
-          "src/main/resources/data/crystalcaves/neoforge/biome_modifier/crystalite_geode_biome_modifier.json"
-        ]
-      }
-    },
-    {
       "name": "CrystalArmor",
       "type": "armor",
       "sortid": 8,
@@ -114,11 +99,11 @@
       "registry_name": "crystal_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_helmet.json",
+          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_chestplate.json",
           "src/main/resources/assets/crystalcaves/models/item/crystal_armor_boots.json",
           "src/main/resources/assets/crystalcaves/models/item/crystal_armor_leggings.json",
-          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_helmet.json",
-          "src/main/java/com/omgrod/crystalcaves/item/CrystalArmorItem.java",
-          "src/main/resources/assets/crystalcaves/models/item/crystal_armor_chestplate.json"
+          "src/main/java/com/omgrod/crystalcaves/item/CrystalArmorItem.java"
         ]
       }
     },
@@ -186,22 +171,6 @@
       }
     },
     {
-      "name": "CrystaliteGolem",
-      "type": "livingentity",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystalite_golem",
-      "metadata": {
-        "files": [
-          "src/main/java/com/omgrod/crystalcaves/client/renderer/CrystaliteGolemRenderer.java",
-          "src/main/resources/assets/crystalcaves/models/item/crystalite_golem_spawn_egg.json",
-          "src/main/java/com/omgrod/crystalcaves/entity/CrystaliteGolemEntity.java",
-          "src/main/resources/data/crystalcaves/neoforge/biome_modifier/crystalite_golem_biome_modifier.json"
-        ]
-      }
-    },
-    {
       "name": "CrystaliteGeode",
       "type": "biome",
       "sortid": 15,
@@ -229,7 +198,6 @@
   },
   "language_map": {
     "en_us": {
-      "item.crystalcaves.crystalite_golem_spawn_egg": "Crystalite Golem Spawn Egg",
       "item.crystalcaves.crystal_armor_leggings": "Crystalite Leggings",
       "item.crystalcaves.crystalite": "Crystalite",
       "block.crystalcaves.crystalite_block": "Block of Crystalite",
@@ -237,7 +205,6 @@
       "biome.crystalcaves.crystalite_cave": "Crystalite Cave",
       "item.crystalcaves.crystal_armor_chestplate": "Crystalite Chestplate",
       "item_group.crystalcaves.crystal_caves_tab": "Crystal Caves",
-      "entity.crystalcaves.crystalite_golem": "Crystalite Golem",
       "item.crystalcaves.crystal_armor_helmet": "Crystalite Helmet",
       "item.crystalcaves.crystal_armor_boots": "Crystalite Boots"
     }
@@ -260,7 +227,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.20.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Made by OmgRod using MCreator",
     "modElementsPackage": "com.omgrod.crystalcaves"
   },

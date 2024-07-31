@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[2,)"
+loaderVersion="[47,)"
 license="Custom license"
 
 [[mods]]
@@ -16,16 +16,9 @@ description="Adds Crystalite caves, ores, armor and tools"
 # End of user code block mod configuration
 
 [[dependencies.crystalcaves]]
-    modId="neoforge"
-    type="required"
-    versionRange="[20.4.223,)"
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.crystalcaves]]
     modId="minecraft"
-    type="required"
-    versionRange="[1.20.4]"
+    mandatory=true
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 
